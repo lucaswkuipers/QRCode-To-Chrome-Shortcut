@@ -1,0 +1,2 @@
+# QRCode-To-Chrome-Shortcut
+Script in python that looks inside a folder (at it's subfolders) for pngs, then tries to decode them (as qrcodes), converting the resulting link (that pointed to a website) to a ascii link. Then, next to each png file, a python script is created, with the same name as png file. The corresponding python script runs a command in cmd to open chrome in the url that was encoded in the qrcode. 
